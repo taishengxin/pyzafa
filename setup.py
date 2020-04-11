@@ -17,7 +17,7 @@ URL = 'https://github.com/taishengxin/pyzafa'
 EMAIL = 'taishengxin@gmail.com'
 AUTHOR = 'taishengxin'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.0.0'
+VERSION = '1.2.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -38,7 +38,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 # Import the README and use it as the long-description.
 # Note: this will only work if 'README.md' is present in your MANIFEST.in file!
 try:
-    with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
+    with io.open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
         long_description = '\n' + f.read()
 except FileNotFoundError:
     long_description = DESCRIPTION
